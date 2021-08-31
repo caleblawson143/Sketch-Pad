@@ -6,6 +6,15 @@
   <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body>
-    <div class="wrapper"></div>
+  <div class="main-wrapper">
+    <div class="header"></div>
+    <div class="controls">
+      <button class="clear-btn">Clear</button>
+      <input type="range" class="slider" step="16" value="16" min="16" max="64">
+      <p class="slider-value" style="color: white;">Grid Size: 16</p>
+      <input class="color-picker" type="color" value="#333333">
+    </div>
+    <div class="grid-wrapper"></div>
+  </div>
 </body>
 </html>
