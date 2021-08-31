@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+.wrappersDad {
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    background-color: blue;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width: 500px;
+    height: 500px;
+}
+
+.gridBox {
+    background-color: black;
+    width: 31.25px;
+    height: 31.25px;
+}
